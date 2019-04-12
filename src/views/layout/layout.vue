@@ -49,7 +49,7 @@
         </template>
       </a-breadcrumb>
       <a-layout-content :style="{ padding: '0 20px',overflow: 'scroll'}">
-        <div :style="{ padding: '24px', background: '#fff'}">
+        <div :style="{ minHeight: '100%',padding: '24px', background: '#fff'}">
           <transition name="main" mode="out-in">
             <router-view/>
           </transition>
